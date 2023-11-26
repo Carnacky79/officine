@@ -8,7 +8,7 @@
         define('DBPASS', 'password');
         define('DBDRIVER', '');
 
-        define('ROOT', 'http://localhost/mvc_officine/public');
+        define('ROOT', 'http://localhost/officine/public');
     }else{
         /** Database configuration */
         define('DBNAME', 'test');
@@ -17,7 +17,7 @@
         define('DBPASS', 'password');
         define('DBDRIVER', '');
 
-        define('ROOT', 'http://localhost/mvc_officine/public');
+        define('ROOT', 'http://localhost/officine/public');
     }
 
     define('CSS', ROOT.'/assets/css');
@@ -29,3 +29,8 @@
 
     // true means show errors
     define('DEBUG', true);
+
+    // site details
+    define('ADDRESS', "Corso Arnaldo Lucci, 61<br>80142 Napoli");
+    define('CELL', "3292626152");
+    define('TEL', "08119090638");
